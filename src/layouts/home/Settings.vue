@@ -79,7 +79,7 @@
           </v-icon>
           Whatsapp
         </base-btn>
-          <base-btn
+        <base-btn
           block
           href="https://instagram.com/haustierpetcolar"
           class="mb-6"
@@ -91,6 +91,19 @@
             mdi-instagram
           </v-icon>
           Instagram
+        </base-btn>
+         <base-btn
+          block
+          href="https://www.youtube.com/watch?v=lUVqjl7GJMs"
+          class="mb-6"
+          color="#b5184a"
+          outlined
+          target="_blank"
+        >
+        <v-icon left>
+            mdi-youtube
+          </v-icon>
+          YouTube
         </base-btn>
             
     

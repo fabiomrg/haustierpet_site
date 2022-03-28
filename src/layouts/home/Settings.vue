@@ -46,7 +46,7 @@
           class="mr-4">
          
     
-          <v-icon left color="#c73838">
+          <v-icon left color="#b5184a">
             mdi-mail
           </v-icon>
           <v-text class="red--text">contato@haustierpet.com</v-text>
@@ -58,7 +58,7 @@
           class="mr-4"
          
         >
-          <v-icon left color="#c73838">
+          <v-icon left color="#b5184a">
             mdi-phone
           </v-icon>
          <v-text> <a class="red--text" href="tel:+55-11-93730-4944">(11) 93730-4944</a></v-text>
@@ -70,7 +70,7 @@
           block
           href="https://api.whatsapp.com/send/?phone=5511937304944"
           class="mb-6"
-          color="#c73838"
+          color="#b5184a"
           outlined
           target="_blank"
         >
@@ -83,7 +83,7 @@
           block
           href="https://instagram.com/haustierpetcolar"
           class="mb-6"
-          color="#c73838"
+          color="#b5184a"
           outlined
           target="_blank"
         >

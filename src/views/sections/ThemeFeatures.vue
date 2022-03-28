@@ -2,27 +2,21 @@
   <base-section id="colares">
   
     <base-section-heading  title="Colares">
-    </base-section-heading>
     
-    <v-container>
-      <v-row>
-        <v-col
-          v-for="(feature, i) in features"
-          :key="i"
-          cols="12"
-          md="6"
-        >
-          <base-avatar-card
-            v-bind="feature"
-            align="left"
-            horizontal
-            
-          >
-            {{text}}
-          </base-avatar-card>
-        </v-col>
-      </v-row>
-    </v-container><br/>
+    
+    
+        <v-row class="mx-6">
+        <div align="left">
+      <br/>
+        <v-text class="black--text">Trata-se de um produto novo que além de conter a sonda esofágica (substitui o uso da faixa-gaze), protege-a de ser removida pelo próprio animal ou em um eventual acidente, uma vez que não fica exposta, haja vista que a sonda fica alojada em um bolso que também é protegido pelo mesmo colar, diferentemente das coleiras de contenção.
+Desta forma, este produto contribui para o êxito do propósito para o qual o procedimento foi adotado, uma vez que, na maioria casos, o tutor será responsável pela continuidade do tratamento.
+Além disso, o colar atenua a sensação aflitiva  dos tutores e pessoas do convívio com o animal, causada pelo uso da faixa gaze no curativo. 
+Recomendamos aos clientes que adquiram 2 peças, tendo em vista, a necessidade de higienização do colar   <br /><br />
+        </v-text> 
+        </div>  
+         </v-row>
+         </base-section-heading>
+    <br/>
     <div id="galeria" style="background-color: #ff8080">
       <br/><br/><br/>
       <base-section-heading class="white--text" title="Galeria">
@@ -184,38 +178,32 @@
        
       
     </v-row> 
-   </base-section-heading>
+  
       </v-container><br/>
       <br/><br/>
     </div>
     
-    <div id="parcerias" >
-      <br/><br/><br/>
-     <base-section-heading title="Parcerias">
-      <v-row class="mx-6" align="center">
-          <b></b>
+    <div id="missao" >
+      
+     <br/><br/><br/>
+      <base-section-heading   title="Missão, visão e valores">
+
+    <div class="d-flex flex-column justify-space-between align-left">
+      <v-row class="mx-6">
+        <div align="left">
+        <v-text class="black--text">  
+          <br/>
+        <b>Missão: </b> Fornecer aos stakeholders do segmento Pet as melhores opções de produtos para  substituir curativos convencionais, dando maior proteção e auxilio na recuperação de animais.<br/><br/>
+<b>Visão: </b> tornar-se empresa modelo para o segmento Pet. <br /><br/>
+<b>Valores: </b> Conhecer o íntimo de um animal e reconhecer que todo crime contra o animal é um crime contra a humanidade. (Leonardo da Vinci)
+        </v-text>
+        </div>
       </v-row>
-     </base-section-heading>
-    <v-container>
-      <v-row>
-        <v-col
-          v-for="(consult, i) in consulting"
-          :key="i"
-          cols="12"
-          md="6"
-        >
-          <base-avatar-card
-            v-bind="consult"
-            align="left"
-            horizontal
-            
-          >
-            {{text}}
-          </base-avatar-card>
-        </v-col>
-      </v-row>
-    </v-container><br/><br/><br/>
     </div>
+   <br/><br/><br/>
+   
+   </base-section-heading>
+   </div>
   
    <div id="about" style="background-color: #ff8080">
      <br/><br/>
@@ -247,9 +235,7 @@ Tendo em vista, os diversos elogios de profissionais da área e amigos, tutores 
 
 Para tanto, ingressamos com o pedido de patente do Colar Protetor de Sonda Esofagica e, vislumbramos, a partir desse produto, poder oferecer outras inovações, acessíveis que oferte aos bichinhos melhores condições e longevidade.<br /><br />
 
-“Chegara o dia em que todo homem conhecerá o íntimo de um animal. E neste dia, todo crime contra o animal será um crime contra a humanidade.”<br />
-
-Leonardo da Vinci.   <br /><br />
+  <br /><br />
 
  
 

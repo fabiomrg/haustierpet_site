@@ -21,7 +21,7 @@
         v-bind="attrs"
         v-on="on"
       >
-        <v-icon large color="#c73838">
+        <v-icon large color="#b5184a">
           mdi-menu
         </v-icon>
       </v-card>
@@ -34,7 +34,7 @@
           block
           @click="$vuetify.goTo('#about')"
           class="mb-6"
-          color="#c73838"
+          color="#b5184a"
           outlined
           target="_blank"
         >
@@ -45,7 +45,7 @@
           block
           @click="$vuetify.goTo('#colares')"
           class="mb-6"
-          color="#c73838"
+          color="#b5184a"
           outlined
           target="_blank"
         >
@@ -54,21 +54,21 @@
         </base-btn>
         <base-btn
           block
-          @click="$vuetify.goTo('#parcerias')"
+          @click="$vuetify.goTo('#missao')"
           
           class="mb-6"
-          color="#c73838"
+          color="#b5184a"
           outlined
           target="_blank"
         >
-          Parcerias
+          Missão
         </base-btn>
           <base-btn
           block
           @click="$vuetify.goTo('#galeria')"
          
           class="mb-6"
-          color="#c73838"
+          color="#b5184a"
           outlined
           target="_blank"
         >
@@ -80,7 +80,7 @@
           @click="$vuetify.goTo('#contatos')"
          
           class="mb-6"
-          color="#c73838"
+          color="#b5184a"
           outlined
           target="_blank"
         >
